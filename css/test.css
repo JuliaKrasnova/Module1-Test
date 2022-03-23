@@ -41,6 +41,11 @@ ul {
 ul > li {
     margin-right: 30px;
 }
+
+ul > li:last-child {
+    margin-right: 0;
+}
+
 .box {
     display: flex;
     margin-bottom: 30px;
@@ -56,6 +61,13 @@ section {
     background: lavender;
     padding: 5px 20px;
     margin-bottom: 20px;
+}
+
+.link {
+    color: white;
+    background: rebeccapurple;
+    padding: 8px 15px;
+    margin-left: 10px;
 }
 
 .post {
